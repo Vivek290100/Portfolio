@@ -22,7 +22,6 @@
       min-height: 100vh;
     }
 
-    /* Header */
     header {
       border-bottom: 1px solid #e5e7eb;
       background: white;
@@ -93,7 +92,6 @@
       border-bottom-color: #111827;
     }
 
-    /* Main Container */
     main {
       max-width: 80rem;
       margin: 0 auto;
@@ -106,7 +104,6 @@
       }
     }
 
-    /* Hero Section */
     .hero {
       text-align: center;
       margin-bottom: 4rem;
@@ -252,7 +249,6 @@
       transform: translateX(0.25rem);
     }
 
-    /* GitHub CTA */
     .github-cta {
       text-align: center;
       margin-top: 4rem;
@@ -392,7 +388,6 @@
       text-decoration: underline;
     }
 
-    /* Skills */
     .skills h3 {
       font-size: 1.125rem;
       font-weight: 600;
@@ -414,7 +409,6 @@
       border-radius: 9999px;
     }
 
-    /* Footer */
     footer {
       border-top: 1px solid #e5e7eb;
       padding: 2rem 0;
@@ -430,15 +424,12 @@
       }
     }
 
-    /* Utility */
     .hidden {
       display: none;
     }
   </style>
 </head>
 <body>
-
-  <!-- Header -->
   <header>
     <div class="header-inner">
       <h1>Vivek V</h1>
@@ -448,14 +439,11 @@
       </nav>
     </div>
   </header>
-
-  <!-- Home / Work Page -->
   <main id="work-page">
     <section class="hero">
       <h2>MERN Stack Developer</h2>
       <p>Building scalable, production-ready web applications from India.</p>
     </section>
-
     <section class="projects-grid">
       <a href="https://judge-xpert.vercel.app" target="_blank" rel="noopener noreferrer" class="project-card">
         <div>
@@ -470,7 +458,6 @@
           </svg>
         </div>
       </a>
-
       <a href="https://hypnosofa.onrender.com" target="_blank" rel="noopener noreferrer" class="project-card">
         <div>
           <h3>HYPNOSOFA</h3>
@@ -484,7 +471,6 @@
           </svg>
         </div>
       </a>
-
       <a href="https://clg-img.vercel.app" target="_blank" rel="noopener noreferrer" class="project-card">
         <div>
           <h3>CampusSnap</h3>
@@ -499,7 +485,10 @@
         </div>
       </a>
     </section>
-
+      <h3 style="margin-top: 3rem; margin-bottom: 1.5rem;">GitHub Stats</h3>
+      <div style="display: flex; flex-direction: column; gap: 1.5rem; align-items: center;">
+        <img src="https://ghchart.rshah.org/20232A/Vivek290100" alt="Vivek's GitHub Contribution Chart" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      </div>
     <div class="github-cta">
       <a href="https://github.com/Vivek290100" target="_blank" rel="noopener noreferrer" class="btn-primary">
         Explore All Projects on GitHub
@@ -510,80 +499,78 @@
     </div>
   </main>
 
-  <!-- About Page -->
-  <main id="about-page" class="hidden about-container">
-    <h2 class="about-title">About</h2>
-
-    <div class="about-grid">
+<main id="about-page" class="hidden about-container">
+  <h2 class="about-title">About</h2>
+  <div class="about-grid">
+    <div>
+      <div class="about-text">
+        <p>I'm a <strong>MERN Stack Developer</strong> based in <strong>The Nilgiris, Tamil Nadu, India</strong>, passionate about building performant, scalable, and production-ready web applications.</p>
+        <p>I specialize in full-stack JavaScript/TypeScript development, real-time systems, payment integrations, clean architecture (Repository Pattern, SOLID), and DevOps.</p>
+        <p>Currently open to full-time remote roles and selective freelance projects.</p>
+      </div>
       <div>
-        <div class="about-text">
-          <p>I'm a <strong>MERN Stack Developer</strong> based in <strong>The Nilgiris, Tamil Nadu, India</strong>, passionate about building performant, scalable, and production-ready web applications.</p>
-          <p>I specialize in full-stack JavaScript/TypeScript development, real-time systems, payment integrations, clean architecture (Repository Pattern, SOLID), and DevOps.</p>
-          <p>Currently open to full-time remote roles and selective freelance projects.</p>
-        </div>
-
-        <div>
-          <a href="https://drive.google.com/file/d/1Zxu-waWKOvFGTqjcyfBrcJa6sNZ3JD3E/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="resume-btn">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
-            </svg>
-            View Résumé
-          </a>
-        </div>
-
-        <div class="contact-list">
-          <p><span class="label">Email</span> vivekofficial2k@gmail.com</p>
-          <p><span class="label">Phone</span> +91 63792 25600</p>
-          <p><span class="label">LinkedIn</span> <a href="https://linkedin.com/in/vivek-v2000" target="_blank">linkedin.com/in/vivek-v2000</a></p>
-          <p><span class="label">LeetCode</span> <a href="https://leetcode.com/Vivek290100" target="_blank">leetcode.com/Vivek290100</a></p>
-        </div>
+        <a href="https://drive.google.com/file/d/1Zxu-waWKOvFGTqjcyfBrcJa6sNZ3JD3E/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="resume-btn">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+          </svg>
+          View Résumé
+        </a>
       </div>
 
-      <div class="skills">
-        <h3>Skills & Technologies</h3>
-        <div class="skills-grid">
-          <span class="skill-tag">JavaScript</span>
-          <span class="skill-tag">TypeScript</span>
-          <span class="skill-tag">React</span>
-          <span class="skill-tag">Redux / Toolkit</span>
-          <span class="skill-tag">Next.js</span>
-          <span class="skill-tag">Node.js</span>
-          <span class="skill-tag">NestJS</span>
-          <span class="skill-tag">Express.js</span>
-          <span class="skill-tag">REST APIs</span>
-          <span class="skill-tag">Socket.IO</span>
-          <span class="skill-tag">MongoDB</span>
-          <span class="skill-tag">PostgreSQL</span>
-          <span class="skill-tag">Redis</span>
-          <span class="skill-tag">Firebase</span>
-          <span class="skill-tag">Tailwind CSS</span>
-          <span class="skill-tag">Shadcn/UI</span>
-          <span class="skill-tag">Handlebars</span>
-          <span class="skill-tag">Bootstrap</span>
-          <span class="skill-tag">Docker</span>
-          <span class="skill-tag">AWS (EC2, S3)</span>
-          <span class="skill-tag">Nginx</span>
-          <span class="skill-tag">PM2</span>
-          <span class="skill-tag">CI/CD</span>
-          <span class="skill-tag">Git & GitHub</span>
-          <span class="skill-tag">JWT</span>
-          <span class="skill-tag">OAuth</span>
-          <span class="skill-tag">Stripe</span>
-          <span class="skill-tag">Razorpay</span>
-          <span class="skill-tag">PWA</span>
-          <span class="skill-tag">Webhooks</span>
-          <span class="skill-tag">Cron Jobs</span>
-          <span class="skill-tag">Zod</span>
-          <span class="skill-tag">Jest</span>
-          <span class="skill-tag">Swagger</span>
-          <span class="skill-tag">Postman</span>
-        </div>
+      <div class="contact-list">
+        <p><span class="label">Email</span> vivekofficial2k@gmail.com</p>
+        <p><span class="label">Phone</span> +91 63792 25600</p>
+        <p><span class="label">LinkedIn</span> <a href="https://linkedin.com/in/vivek-v2000" target="_blank">linkedin.com/in/vivek-v2000</a></p>
+        <p><span class="label">LeetCode</span> <a href="https://leetcode.com/Vivek290100" target="_blank">leetcode.com/Vivek290100</a></p>
       </div>
     </div>
-  </main>
 
-  <!-- Footer -->
+    <div class="skills">
+      <h3>Skills & Technologies</h3>
+      <div class="skills-grid">
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">TypeScript</span>
+        <span class="skill-tag">React</span>
+        <span class="skill-tag">Redux / Toolkit</span>
+        <span class="skill-tag">Next.js</span>
+        <span class="skill-tag">Node.js</span>
+        <span class="skill-tag">NestJS</span>
+        <span class="skill-tag">Express.js</span>
+        <span class="skill-tag">REST APIs</span>
+        <span class="skill-tag">Socket.IO</span>
+        <span class="skill-tag">MongoDB</span>
+        <span class="skill-tag">PostgreSQL</span>
+        <span class="skill-tag">Redis</span>
+        <span class="skill-tag">Firebase</span>
+        <span class="skill-tag">Tailwind CSS</span>
+        <span class="skill-tag">Shadcn/UI</span>
+        <span class="skill-tag">Handlebars</span>
+        <span class="skill-tag">Bootstrap</span>
+        <span class="skill-tag">Docker</span>
+        <span class="skill-tag">AWS (EC2, S3)</span>
+        <span class="skill-tag">Nginx</span>
+        <span class="skill-tag">PM2</span>
+        <span class="skill-tag">CI/CD</span>
+        <span class="skill-tag">Git & GitHub</span>
+        <span class="skill-tag">JWT</span>
+        <span class="skill-tag">OAuth</span>
+        <span class="skill-tag">Stripe</span>
+        <span class="skill-tag">Razorpay</span>
+        <span class="skill-tag">PWA</span>
+        <span class="skill-tag">Webhooks</span>
+        <span class="skill-tag">Cron Jobs</span>
+        <span class="skill-tag">Zod</span>
+        <span class="skill-tag">Jest</span>
+        <span class="skill-tag">Swagger</span>
+        <span class="skill-tag">Postman</span>
+      </div>
+
+
+    </div>
+  </div>
+</main>
+
   <footer>
     <p>© 2025 Vivek V • The Nilgiris, India</p>
   </footer>
